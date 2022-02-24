@@ -1,0 +1,122 @@
+// Block
+.block
+  overflow: hidden
+  .headline
+    margin-top: 0
+  p:last-child
+    margin-bottom: 0
+// Block Hero and Subs
+.block-hero,
+.block-sub
+  .inner
+    display: block
+    position: relative
+  .b-text
+    color: $white
+  .headline
+    font-size: 1.25em
+  @media all and (min-width: $bp-small) and (max-width: $bp-sm-max)
+    width: calc(50% - 0.4rem)
+  @media all and (max-width: $bp-sm-max)
+    .headline
+      line-height: 1.1
+// Block Hero
+.block-hero
+  margin-bottom: $space-half
+  .b-thumb
+    img
+      display: block
+  @media all and (max-width: $bp-xs-max)
+    .b-text
+      display: flex
+      flex-direction: column
+      justify-content: center
+      height: 8.7rem
+  @media all and (max-width: $bp-sm-max)
+    .b-text
+      background-color: $dimmer
+      overflow: hidden
+    .headline
+      margin-bottom: 0
+      padding: 0 $space-half
+  @media all and (min-width: $bp-small) and (max-width: $bp-sm-max)
+    .b-thumb
+      padding-top: 75%
+    img
+      position: absolute
+      top: 0
+      left: 0
+    .b-text
+      overflow: hidden
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      padding-top: 19%
+    .headline
+      position: absolute
+      top: 50%
+      left: 0
+      transform: translateY(-50%)
+  @media all and (min-width: $bp-med)
+    position: relative
+    width: 100%
+    .b-text
+      background-color: $dim
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      padding: $space-and-half $space-half
+    .headline
+      font-size: 1.5em
+// Block Sub
+.block-sub
+  position: relative
+  margin-bottom: $space-half
+  position: relative
+  .b-thumb
+    position: relative
+    z-index: 0
+    img
+      display: block
+  .b-text
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    background-color: $dim
+    padding: $space-half
+  @media all and (min-width: $bp-med)
+    padding-top: $space-half
+    width: "calc(%s - (%s / 3))" % ($column-width-one-third $space-double)
+// Block Dagwood
+.block-dagwood
+  width: 100%
+  .b-inner
+    display: block
+    overflow: hidden
+  .headline,
+  .b-text
+    @media all and (min-width: $bp-small)
+      float: right
+      padding: 0 0 0 $space
+      width: $column-width-three-quarters
+  .headline
+    font-size: 1.25em
+  .b-thumb
+    @media all and (max-width: $bp-xs-max)
+      display: flex
+      align-items: center
+      justify-content: center
+      img
+        max-width: 22.5rem
+    @media all and (min-width: $bp-small)
+      float: left
+      width: $column-width-one-quarter
+  .b-text
+    p:first-child
+      margin-top: 0
+    @media all and (max-width: $bp-xs-max)
+      p:first-child
+        margin-top: $space-quarter

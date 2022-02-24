@@ -1,0 +1,29 @@
+{
+  "pagination": {
+    "list_attributes": " class=\"pagination\"",
+    "ol_items": [
+      {
+        "item_attributes": " class=\"current\"",
+        "item": "<a href=\"#\">1</a>"
+      },
+      {
+        "item": "<a href=\"#\">2</a>"
+      },
+      {
+        "item": "<a href=\"#\">3</a>"
+      },
+      {
+        "item": "<a href=\"#\">4</a>"
+      },
+      {
+        "item": "<a href=\"#\">5</a>"
+      },
+      {
+        "item": "<a href=\"#\">6</a>"
+      },
+      {
+        "item": "<a href=\"#\">7</a>"
+      }
+    ]
+  }
+}

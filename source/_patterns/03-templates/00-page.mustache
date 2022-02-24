@@ -1,0 +1,42 @@
+<div class="page" id="{{ template_id }}">
+  {{> 02-components/01-sections/00-header }}
+  <main role="main">
+    {{# homepage? }}
+      <section class="hero-and-subs">
+        {{# hero }}
+          {{> 01-compounds/01-blocks/00-block-hero }}
+        {{/ hero }}
+
+        {{# subs }}
+          {{> 01-compounds/01-blocks/01-block-sub }}
+        {{/ subs }}
+      </section>
+    {{/ homepage? }}
+
+    <div class="l-two-col">
+      <div class="l-main">
+        {{# homepage? }}
+          {{> 02-components/01-sections/01-dagwood }}
+        {{/ homepage? }}
+
+        {{# blog? }}
+          {{> 02-components/01-sections/01-dagwood }}
+          {{> 02-components/03-navigation/01-pagination }}
+        {{/ blog? }}
+
+        {{# article? }}
+          {{> 02-components/00-article/00-article }}
+        {{/ article? }}
+      </div><!--end .l-main-->
+
+      <div class="l-sidebar">
+        {{# article? }}
+          {{> 02-components/01-sections/02-recent-posts }}
+        {{/ article? }}
+
+        {{> 02-components/02-comments/00-recent-comments }}
+      </div><!--end .l-sidebar-->
+    </div><!--end .l-two-col-->
+  </main><!--End main-->
+  {{> 01-compounds/00-text/01-footer }}
+</div>

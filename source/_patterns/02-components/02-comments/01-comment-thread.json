@@ -1,0 +1,39 @@
+{
+  "comment_placeholders": [
+    {
+      "name": {
+        "first": "Junius",
+        "last": "Koolen"
+      },
+      "comment_body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget erat suscipit, blandit orci nec, dictum leo. Morbi ultricies aliquam hendrerit. Sed finibus ac velit quis mattis. Curabitur mattis mi sed turpis gravida egestas. Proin rutrum dui ac ullamcorper fermentum. Proin porta enim id convallis molestie. Etiam eu nibh pulvinar, eleifend velit non, volutpat velit. Proin eleifend leo vitae justo egestas, sit amet mattis ex cursus."
+    },
+    {
+      "name": {
+        "first": "Fergus",
+        "last": "Althuis"
+      },
+      "comment_body": "Donec tincidunt laoreet ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam iaculis porta lorem sed vehicula. Quisque placerat euismod nisi pellentesque tempus. Aenean rhoncus, dolor a aliquam porttitor, nisi massa ultrices tortor, sed posuere magna mauris a erat. Ut in nisl auctor, hendrerit metus a, commodo mi. In tortor lacus, egestas sed faucibus at, blandit et erat."
+    },
+    {
+      "name": {
+        "first": "Bertil",
+        "last": "Aaij"
+      },
+      "comment_body": "Vivamus velit nulla, pretium consectetur viverra at, ultricies et ante. Integer magna odio, scelerisque vitae diam sit amet, sollicitudin semper justo. Donec hendrerit erat leo, a malesuada purus tempor nec. Nam eget augue nec odio tristique tempus. Sed urna tortor, luctus non ultrices nec, aliquet quis metus. Quisque semper ligula vitae tincidunt commodo. Suspendisse cursus sollicitudin ultricies."
+    },
+    {
+      "name": {
+        "first": "Duane",
+        "last": "Wilms"
+      },
+      "comment_body": "Nullam vitae augue ornare est lobortis interdum a eu ex. Praesent pulvinar ut augue sit amet semper. In ultricies nec leo ac varius. Mauris lacinia porta diam, eget ultrices libero rhoncus quis. Aenean quam neque, porttitor vitae dapibus eget, gravida eget nunc. Sed molestie finibus ex, et pulvinar augue viverra non. Quisque commodo mi eu libero rhoncus suscipit. Morbi in pulvinar enim, vel sollicitudin orci."
+    },
+    {
+      "name": {
+        "first": "Frans",
+        "last": "Keegan"
+      },
+      "comment_body": "Sed id blandit purus. Proin mollis maximus hendrerit. Vivamus ac egestas metus, quis congue ex. Vivamus tristique, magna vitae consequat luctus, quam est blandit sapien, sed ultricies diam diam eget leo. Aliquam consectetur vehicula metus, in cursus orci. Curabitur molestie ligula quis ipsum dictum eleifend. Donec feugiat lobortis urna, in pharetra eros faucibus consectetur. Aliquam et dictum felis."
+    }
+  ]
+}

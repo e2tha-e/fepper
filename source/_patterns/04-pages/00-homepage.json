@@ -1,0 +1,48 @@
+{
+  "homepage?": true,
+  "hero": [
+    {
+      "url": "../04-pages-02-articles-00-article/04-pages-02-articles-00-article.html",
+      "img": {
+        "landscape_16x9": {
+          "src": "../../_assets/src/landscape-16x9-mountains.jpg",
+          "alt": "Mountains"
+        }
+      },
+      "headline": "Top 10 mountain ranges for hiking"
+    }
+  ],
+  "subs": [
+    {
+      "url": "../04-pages-02-articles-00-article-1/04-pages-02-articles-00-article-1.html",
+      "img": {
+        "landscape_4x3": {
+          "src": "../../_assets/src/sub-4x3-climber.jpg",
+          "alt": "Climber"
+        }
+      },
+      "headline": "Extreme climbing tips"
+    },
+    {
+      "url": "../04-pages-02-articles-00-article-2/04-pages-02-articles-00-article-2.html",
+      "img": {
+        "landscape_4x3": {
+          "src": "../../_assets/src/sub-4x3-stream.jpg",
+          "alt": "Stream hiking"
+        }
+      },
+      "headline": "Stream hiking"
+    },
+    {
+      "url": "../04-pages-02-articles-00-article-3/04-pages-02-articles-00-article-3.html",
+      "img": {
+        "landscape_4x3": {
+          "src": "../../_assets/src/sub-4x3-climbers.jpg",
+          "alt": "Explore hiking trails"
+        }
+      },
+      "headline": "Explore hiking trails"
+    }
+  ],
+  "latest_posts_title": "Latest Posts"
+}

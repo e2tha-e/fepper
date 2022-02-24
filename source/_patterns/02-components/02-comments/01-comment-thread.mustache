@@ -1,0 +1,11 @@
+<section class="comments section">
+  <div class="comments-container">
+    <h2 class="section-title">59 Comments</h2>
+    <ul class="comment-list">
+      {{# comment_placeholders }}
+        {{> compounds-single-comment }} 
+      {{/ comment_placeholders }}
+    </ul>
+    {{> compounds-comment-form }}
+  </div>
+</section>

@@ -1,0 +1,11 @@
+<section class="section dagwood">
+  {{# latest_posts_title }}
+    <h2 class="section-title">{{{ latest_posts_title }}}</h2>
+  {{/ latest_posts_title }}
+  <ul class="post-list">
+    {{# latest_posts }}
+      <li>{{> compounds-block-dagwood }}</li>
+    {{/ latest_posts }}
+  </ul>
+  <a href="#" class="text-btn">View more posts</a>
+</section>

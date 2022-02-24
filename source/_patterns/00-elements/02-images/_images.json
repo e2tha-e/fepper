@@ -1,0 +1,20 @@
+{
+  "img": {
+    "logo": {
+      "src": "../../_assets/src/logo.svg",
+      "alt": "Fepper"
+    },
+    "landscape_4x3": {
+      "src": "../../_assets/src/fpo_4x3.png",
+      "alt": "4x3 Image"
+    },
+    "landscape_16x9": {
+      "src": "../../_assets/src/fpo_16x9.png",
+      "alt": "16x9 Image"
+    },
+    "square": {
+      "src": "../../_assets/src/fpo_square.png",
+      "alt": "Square Thumbnail"
+    }
+  }
+}

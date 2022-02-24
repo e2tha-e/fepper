@@ -1,0 +1,11 @@
+<!-- Begin .header -->
+<header id="header" class="header cf" role="banner">
+  {{> 01-compounds/01-blocks/04-logo }}
+  <button href="#" class="nav-toggle nav-toggle-search icon-search"><span class="visually-hidden">Search</span></button>
+  <button href="#" class="nav-toggle nav-toggle-menu icon-menu"><span class="visually-hidden">Menu</span></button>
+  {{! Putting search before primary-nav in HTML, and using floats in CSS to render primary-nav before search in the
+      browser, in order to align with Drupal and WordPress distros which must allow dynamically enabled blocks. }}
+  {{> 01-compounds/02-forms/00-search }}
+  {{> 02-components/03-navigation/00-primary-nav }}
+</header>
+<!-- End .header -->

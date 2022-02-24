@@ -1,0 +1,58 @@
+.header
+  @extend .lc
+  background-color: $white
+  border-bottom: 1px solid $gray-light-2
+  padding: 0
+  width: 100%
+  @media all and (max-width: $bp-sm-max)
+    margin: 0
+    padding-left: $space-half
+  @media all and (min-width: $bp-med)
+    width: "calc(100% - %s)" % $space
+  @media all and (min-width: $max-width)
+    width: "calc(%s - %s)" % ($max-width $space)
+.logo
+  float: left
+  margin-top: $space-half
+  margin-right: $space-half
+  @media all and (max-width: $bp-sm-max)
+    img
+      height: 3.8rem
+.nav-toggle
+  background-color: $white-translucent
+  border: 0
+  border-left: 1px solid $gray-light-2
+  color: $gray-dark
+  float: right
+  font-size: 2.08rem
+  line-height: 1
+  outline: 0
+  padding: $space
+  position: relative
+  width: $nav-toggle-n-border
+  height: $nav-toggle-height
+  z-index: 2
+  &:focus
+    color: $gray
+  &:active
+    background-color: $gray-light-1
+  @media (hover: hover)
+    &:hover
+      color: $gray
+  @media all and (min-width: $bp-med)
+    display: none
+.search-form
+  background-color: $white-translucent
+  @media all and (max-width: $bp-sm-max)
+    margin: 0
+    max-height: 0
+    overflow: hidden
+    position: absolute
+    top: $nav-toggle-n-border
+    right: 0
+    z-index: 3
+    &.active
+      max-height: none
+  @media all and (min-width: $bp-med)
+    float: right
+    margin-top: $space-half

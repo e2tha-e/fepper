@@ -1,0 +1,55 @@
+.nav
+  background-color: $white-translucent
+  clear: both
+  overflow: hidden
+  a
+    display: block
+  @media all and (max-width: $bp-sm-max)
+    max-height: 0
+    position: absolute
+    top: $nav-toggle-n-border
+    left: 0
+    width: 100%
+    z-index: 1
+    a
+      border-bottom: 1px solid $gray-light-2
+      padding: 0.7rem $space
+      &:active
+        background-color: $gray-light-1
+    &.active
+      max-height: 100%
+  @media all and (min-width: $bp-med)
+    clear: none
+    float: left
+    margin: 1.1rem 0
+    ul
+      display: flex
+      flex-wrap: wrap
+      align-items: center
+      min-height: 3.4rem
+    li
+      padding: 0 1em
+    a
+      padding: 0.1rem 0
+.pagination
+  margin-bottom: $space
+  overflow: hidden
+  .section.dagwood + &
+    margin-top: -($space)
+  .current
+    font-weight: bold
+  li
+    float: left
+    border-right: 1px solid $gray-light-2
+    &:last-child
+      border: 0
+  a
+    display: block
+    // Using padding for a tag to increase tappable area when the link is a numeral.
+    padding: 0 0.75em
+  @media all and (max-width: $bp-xs-max)
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    a
+      padding: 0 1.4rem

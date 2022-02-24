@@ -1,0 +1,8 @@
+<section class="section recent-comments">
+  <h2 class="section-title">Recent Comments</h2>
+  <ul class="headline-list">
+    {{# comment_placeholders }}
+      <li><a href="{{ url }}">{{ comment_title }}</a>{{> 00-elements/00-text/01-time }}</li>
+    {{/ comment_placeholders }}
+  </ul>
+</section>

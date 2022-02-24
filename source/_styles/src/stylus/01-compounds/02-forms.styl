@@ -1,0 +1,95 @@
+form > div
+  margin-bottom: 1em
+form ol, form ul
+  list-style: none
+  margin-left: 0
+fieldset
+  border: 0
+  padding: 0
+  margin: 0
+label
+  display: block
+  padding-bottom: $space-quarter
+button, input, select, textarea
+  font-family: inherit
+  font-size: 100%
+  margin: 0
+input, textarea
+  border: 1px solid $gray
+  padding: $space-half 0.65em
+input[type="text"], input[type="email"], input[type="password"], input[type="url"], input[type="number"]
+  width: 15.9375em
+input[type="text"], input[type="search"], input[type="url"], input[type="number"], textarea
+  -webkit-appearance: none
+button, input[type="submit"]
+  padding: $space-half
+  background-color: $gray-dark
+  border: 1px solid $gray
+  border-radius: 0
+  color: $white
+  cursor: pointer
+input[type="checkbox"],
+input[type="radio"]
+  width: auto
+  margin-right: 0.3em
+input[type="search"]
+  -webkit-appearance: none
+  border-radius: 0
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration
+  -webkit-appearance: none
+textarea
+  @media all and (max-width: $bp-xs-max)
+    width: 100%
+  @media all and (min-width: $bp-small)
+    max-width: 100%
+.field-container
+  margin-bottom: $space
+.inline-form
+  fieldset, .inline-container
+    position: relative
+.inline-search-results-form
+  width: 100%
+  fieldset, .inline-container
+    position: relative
+  input[type="submit"], button
+    position: absolute
+    top: 0
+    right: 0
+    z-index: 1
+    width: auto
+  @media all and (min-width: $bp-med)
+    width: 82%
+// Search Form
+.search-form
+  fieldset
+    float: left
+.search-field,
+.search-submit
+  height: 2.5em
+.search-field
+  background-color: transparent
+  width: 13.5em
+  @media all and (max-width: $bp-sm-max)
+    float: right
+  @media all and (min-width: $bp-med) and (max-width: $bp-md-max)
+    width: 11.4375em
+.search-submit
+  background-color: transparent
+  border: 1px solid $gray
+  border-left: 0
+  color: $black
+  width: 3.125em
+  &:focus
+    color: $gray
+  &:active
+    background-color: rgba(0, 0, 0, 0.1)
+  @media (hover: hover)
+    &:hover
+      color: $gray
+// Comment Form
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea
+  width: 100%
